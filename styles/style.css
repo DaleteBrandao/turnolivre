@@ -1,0 +1,36 @@
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.card-custom {
+  border: 2px solid #9B59B6;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(155, 89, 182, 0.2);
+}
+
+.btn-lilas {
+  background-color: #9B59B6;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-lilas:hover {
+  background-color: #8E44AD;
+}
+
+.form-label {
+  color: #9B59B6;
+  font-weight: 500;
+}
+
+h2 {
+  color: #9B59B6;
+  font-weight: bold;
+}
+
+select.form-select:focus,
+input.form-control:focus {
+  border-color: #9B59B6;
+  box-shadow: 0 0 0 0.2rem rgba(155, 89, 182, 0.25);
+}
